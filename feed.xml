@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <generator uri="https://gohugo.io/" version="0.100.1">Hugo</generator>
-    <title>My New Hugo Site</title>
-            <link href="http://example.org/" rel="alternate" type="text/html" title="HTML" />
-            <link href="http://example.org/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-    <updated>2022-06-04T03:01:25+09:00</updated>
-    <id>http://example.org/</id>
+    <title>七転び八起き</title>
+            <link href="https://kensei18.github.io/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://kensei18.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+    <updated>2022-06-04T03:11:41+09:00</updated>
+    <id>https://kensei18.github.io/</id>
         <entry>
             <title>ブログ開設した</title>
-            <link href="http://example.org/posts/220603/" rel="alternate" type="text/html"  hreflang="en" />
-            <id>http://example.org/posts/220603/</id>
+            <link href="https://kensei18.github.io/posts/220603/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://kensei18.github.io/posts/220603/</id>
             <published>2022-06-04T00:59:05+09:00</published>
             <updated>2022-06-04T00:59:05+09:00</updated>
             <content type="html">
