@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://gohugo.io/" version="0.100.1">Hugo</generator>
+    <title>My New Hugo Site</title>
+            <link href="http://example.org/" rel="alternate" type="text/html" title="HTML" />
+            <link href="http://example.org/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+    <updated>2022-06-04T02:37:46+09:00</updated>
+    <id>http://example.org/</id>
+        <entry>
+            <title>ブログ開設した</title>
+            <link href="http://example.org/posts/220603/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>http://example.org/posts/220603/</id>
+            <published>2022-06-04T00:59:05+09:00</published>
+            <updated>2022-06-04T00:59:05+09:00</updated>
+            <content type="html">
+                &lt;p&gt;自分の考えていることを書き出したりしたら、頭の中を整理できるかなと思い立って開設してみた。なんとなくアウトプットする先があった方が続くかなと思っているけど、続く自信は全くない。ローカル+Githubで完結させた方が楽だと思ったので、Hugoで作った。&lt;/p&gt;
+&lt;p&gt;書く内容は新しく学んだ技術のこととか、体系だっていないつぶやきとかかな？&lt;/p&gt;
+&lt;p&gt;今の悩みは、&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://vuetifyjs.com&#34;
+  
+&gt;Vuetify&lt;/a&gt;が一向にVue3に対応できる兆しがないため、自分の作っているアプリケーションをVueからReactに移すべきか、ということ。Vuetify3のリリースに関する&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://github.com/vuetifyjs/vuetify/issues/14984&#34;
+  
+&gt;issue&lt;/a&gt;を読む限り、あんまり建設的に議論が進んでなさそう。。。Reactの基本的な書き方はなんとなく知っているけど、関連ライブラリとか状態管理のベストプラクティスとかもうちょっと調べないと。。。&lt;/p&gt;
+
+            </content>  
+        </entry>
+</feed>
