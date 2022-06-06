@@ -4,8 +4,24 @@
     <title>七転び八起き</title>
             <link href="https://kensei18.github.io/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://kensei18.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-    <updated>2022-06-05T23:02:40+09:00</updated>
+    <updated>2022-06-06T23:32:44+09:00</updated>
     <id>https://kensei18.github.io/</id>
+        <entry>
+            <title>Reactの状態管理調査</title>
+            <link href="https://kensei18.github.io/posts/20220606/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://kensei18.github.io/posts/20220606/</id>
+            <published>2022-06-06T23:23:26+09:00</published>
+            <updated>2022-06-06T23:23:26+09:00</updated>
+            <content type="html">
+                &lt;p&gt;Reactはほとんど触らず、Vue.jsしか開発したことがなかったけど、React/Next.jsで開発する必要が出てきそうなので調査。とりあえずReactの状態管理の手法を知りたかったところ、&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://blog.uhy.ooo/entry/2021-07-24/react-state-management/?utm_source=pocket_mylist&#34;
+  
+&gt;こちらの記事&lt;/a&gt;を見つけたので読んでみた。&lt;/p&gt;
+&lt;p&gt;VuexはReduxのVue.js版かと思っていたが、もしかしたらちょっと違う？Reduxは分割ができない、的なことが書いてあるけど、これは文字通りファイルが分割できないのか、さまざまなステートが一つのインスタンスに内包されているという意味か、よくわからなかった。とはいえ、Vuexもpiniaも実際のところどうやって状態管理しているのかよくわかっていないので、あまり気にする意味がなさそう。少なくとも、2022年6月現在ではRecoilが比較的新しい状態管理ライブラリとして人気がありそうということがわかった。今後ドキュメントをよく読む必要がありそう。&lt;/p&gt;
+
+            </content>  
+        </entry>
         <entry>
             <title>Nature RemoをMacから操作</title>
             <link href="https://kensei18.github.io/posts/20220605/" rel="alternate" type="text/html"  hreflang="en" />
