@@ -4,8 +4,20 @@
     <title>七転び八起き</title>
             <link href="https://kensei18.github.io/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://kensei18.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-    <updated>2022-06-06T23:32:44+09:00</updated>
+    <updated>2022-06-08T22:59:01+09:00</updated>
     <id>https://kensei18.github.io/</id>
+        <entry>
+            <title>マイクロサービスと既存テスト</title>
+            <link href="https://kensei18.github.io/posts/20220608/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://kensei18.github.io/posts/20220608/</id>
+            <published>2022-06-08T22:50:29+09:00</published>
+            <updated>2022-06-08T22:50:29+09:00</updated>
+            <content type="html">
+                &lt;p&gt;モノリスの既存機能をマイクロサービス化するにあたって、既存テストの一部のデータ取得をモックしたりしてる。Ruby on RailsのようなMVCがガッチリ絡み合っているようなフレームワークだと、確かにサービスが大きくなってきたときにその密結合が悪影響を及ぼすけど、E2Eテストはかなりやりやすかったんだなと感じている。&lt;/p&gt;
+&lt;p&gt;マイクロサービスじゃなくても、フロントエンドとバックエンドが明確に分けられているような最近のアーキテクチャでは、E2Eテストをどう考えるのが正解なんだろう？個別にインテグレーションテストするのはもちろんだが、それで十分なんだろうか？意外と調べても簡単には出てこない（特に日本語だと）ので、そのうち時間をとって海外のブログとか漁ってみたい。&lt;/p&gt;
+
+            </content>  
+        </entry>
         <entry>
             <title>Reactの状態管理調査</title>
             <link href="https://kensei18.github.io/posts/20220606/" rel="alternate" type="text/html"  hreflang="en" />
