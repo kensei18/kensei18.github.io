@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kensei18.github.io/posts/</loc>
-    <lastmod>2022-06-08T22:50:29+09:00</lastmod>
+    <loc>https://kensei18.github.io/posts/20220610/</loc>
+    <lastmod>2022-06-10T23:44:11+09:00</lastmod>
   </url><url>
-    <loc>https://kensei18.github.io/posts/20220608/</loc>
-    <lastmod>2022-06-08T22:50:29+09:00</lastmod>
+    <loc>https://kensei18.github.io/posts/</loc>
+    <lastmod>2022-06-10T23:44:11+09:00</lastmod>
   </url><url>
     <loc>https://kensei18.github.io/</loc>
+    <lastmod>2022-06-10T23:44:11+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/posts/20220608/</loc>
     <lastmod>2022-06-08T22:50:29+09:00</lastmod>
   </url><url>
     <loc>https://kensei18.github.io/posts/20220606/</loc>
