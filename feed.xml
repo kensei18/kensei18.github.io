@@ -4,7 +4,7 @@
     <title>七転び八起き</title>
             <link href="https://kensei18.github.io/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://kensei18.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-    <updated>2022-06-15T23:03:09+09:00</updated>
+    <updated>2022-06-15T23:11:23+09:00</updated>
     <id>https://kensei18.github.io/</id>
         <entry>
             <title>Next.jsのチュートリアル終わった / Monorepo</title>
@@ -26,7 +26,11 @@
   class=&#34;gblog-markdown__link&#34;
   href=&#34;https://zenn.dev/cacbahbj/articles/6f4a337e2070ed&#34;
   
-&gt;動画&lt;/a&gt;があった。かなり勉強になりそうだし、両方とも週末にでも観たい。&lt;/p&gt;
+&gt;動画&lt;/a&gt;があった。かなり勉強になりそうだし、両方とも週末にでも観たい。&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://github.com/babel/babel/blob/main/doc/design/monorepo.md&#34;
+  
+&gt;babelのデザイン資料&lt;/a&gt;も読みたい。&lt;/p&gt;
 
             </content>  
         </entry>
