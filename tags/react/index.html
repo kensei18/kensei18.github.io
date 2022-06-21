@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="generator" content="Hugo 0.100.1" />
 
-    <title>Tags | 七転び八起き</title>
+    <title>React | 七転び八起き</title>
 
     <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
 <link
@@ -33,17 +33,17 @@
     
   <meta
     property="og:title"
-    content="Tags"
+    content="React"
   />
   <meta property="og:site_name" content="七転び八起き" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://kensei18.github.io/tags/" />
+<meta property="og:url" content="https://kensei18.github.io/tags/react/" />
 
 
 
 
   <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Tags" />
+<meta name="twitter:title" content="React" />
 
 
 
@@ -115,7 +115,7 @@
   href="/custom.css"
   media="all"
 />
-  <link href="https://kensei18.github.io/tags/" rel="canonical" type="text/html" />
+  <link href="https://kensei18.github.io/tags/react/" rel="canonical" type="text/html" />
     <link href="https://kensei18.github.io/feed.xml" rel="alternate" type="application/atom+xml" title="七転び八起き Atom Feed" />
 
 <!-- Made with Geekblog theme https://github.com/thegeeklab/hugo-geekblog -->
@@ -240,7 +240,9 @@
         
           <li>
             <a
-              class="gblog-nav__entry"
+              class="gblog-nav__entry
+                 is-active
+              "
               href="/tags/react/"
             >
               React
@@ -281,259 +283,167 @@
         
   
   
+
+  
+  
     <article class="gblog-post">
       <header class="gblog-post__header">
         <h1 class="gblog-post__title">
-          <a href="/tags/architecture/">Architecture</a>
+          <a href="/posts/20220621/">Reactの周辺</a>
         </h1>
       </header>
 
-      <footer class="gblog-post__meta flex align-center">
-        <span class="flex align-center no-wrap">
-          
-          <svg class="gblog-icon gblog_tag"><use xlink:href="#gblog_tag"></use></svg>
-          <span class="gblog-post__tag">
-            1
-            post
-          </span>
-        </span>
+      <section class="gblog-markdown">
+        VueのアプリをNext.jsに置き換えようとしているけど、Vueと比較するとReact/Next.js関連のドキュメントはかなり簡単に見つかる。Firebase Authを導入するのとかも、Vueだと普通にFirebase SDKのドキュメントを読んで自分なりに組み込んだような記憶があるけど、Next.jsに関してはNext.jsの公式ドキュメントにFirebase Auth導入に関するリンクが載っていて、さらにそこに飛んだら普通にnext-firebase-authというライブラリが用意されていた。Vueのエコシステムはめちゃ好きだったけど、直接関連がないライブラリでも、Reactに導入するための丁寧なドキュメントが用意されていることが多いような気がしていて、「あー、これはVueは勝てんわ」ってなってる。
+      </section>
+      <div class="gblog-post__readmore">
+        
+      </div>
 
+      <footer class="gblog-post__footer">
+        <div class="flex flex-wrap align-center gblog-post__meta">
+          <span class="flex align-center no-wrap">
+  <svg class="gblog-icon gblog_date"><use xlink:href="#gblog_date"></use></svg>
+  <span class="gblog-post__tag">
+    <time datetime="2022-06-21T23:11:28&#43;09:00">
+      
+      Jun 21, 2022
+    </time>
+  </span>
+</span>
+
+<span class="flex align-center no-wrap">
+  <svg class="gblog-icon gblog_timer"><use xlink:href="#gblog_timer"></use></svg>
+  <span class="gblog-post__tag">1 min read</span>
+</span>
+
+
+
+
+
+
+
+
+  
+    
+    
+      
         <span class="flex align-center no-wrap">
-          <svg class="gblog-icon gblog_star"><use xlink:href="#gblog_star"></use></svg>
-          <span>
-            
-            
-              <a href="/posts/20220615/">Next.jsのチュートリアル終わった / Monorepo</a>
-            
-            <i>by</i>
-            
-            
-          </span>
+          <svg class="gblog-icon gblog_bookmark"><use xlink:href="#gblog_bookmark"></use></svg>
+          
+  <span class="gblog-post__tag gblog-button gblog-button--regular">
+    <a
+      class="gblog-button__link"
+      href="/tags/next.js/"
+      title="All posts tagged with 'next.js'"
+    >
+      next.js
+    </a>
+  </span>
+
         </span>
+      
+    
+    
+  
+    
+    
+      
+        <span class="flex align-center">
+          
+  <span class="gblog-post__tag gblog-button gblog-button--regular">
+    <a
+      class="gblog-button__link"
+      href="/tags/react/"
+      title="All posts tagged with 'react'"
+    >
+      react
+    </a>
+  </span>
+
+        </span>
+      
+    
+    
+  
+
+
+
+
+
+
+        </div>
       </footer>
     </article>
   
     <article class="gblog-post">
       <header class="gblog-post__header">
         <h1 class="gblog-post__title">
-          <a href="/tags/cicd/">Cicd</a>
+          <a href="/posts/20220606/">Reactの状態管理調査</a>
         </h1>
       </header>
 
-      <footer class="gblog-post__meta flex align-center">
-        <span class="flex align-center no-wrap">
-          
-          <svg class="gblog-icon gblog_tag"><use xlink:href="#gblog_tag"></use></svg>
-          <span class="gblog-post__tag">
-            1
-            post
-          </span>
-        </span>
+      <section class="gblog-markdown">
+        Reactはほとんど触らず、Vue.jsしか開発したことがなかったけど、React/Next.jsで開発する必要が出てきそうなので調査。とりあえずReactの状態管理の手法を知りたかったところ、こちらの記事を見つけたので読んでみた。
+VuexはReduxのVue.js版かと思っていたが、もしかしたらちょっと違う？Reduxは分割ができない、的なことが書いてあるけど、これは文字通りファイルが分割できないのか、さまざまなステートが一つのインスタンスに内包されているという意味か、よくわからなかった。とはいえ、Vuexもpiniaも実際のところどうやって状態管理しているのかよくわかっていないので、あまり気にする意味がなさそう。少なくとも、2022年6月現在ではRecoilが比較的新しい状態管理ライブラリとして人気がありそうということがわかった。今後ドキュメントをよく読む必要がありそう。
+      </section>
+      <div class="gblog-post__readmore">
+        
+      </div>
 
-        <span class="flex align-center no-wrap">
-          <svg class="gblog-icon gblog_star"><use xlink:href="#gblog_star"></use></svg>
-          <span>
-            
-            
-              <a href="/posts/20220615/">Next.jsのチュートリアル終わった / Monorepo</a>
-            
-            <i>by</i>
-            
-            
-          </span>
-        </span>
-      </footer>
-    </article>
+      <footer class="gblog-post__footer">
+        <div class="flex flex-wrap align-center gblog-post__meta">
+          <span class="flex align-center no-wrap">
+  <svg class="gblog-icon gblog_date"><use xlink:href="#gblog_date"></use></svg>
+  <span class="gblog-post__tag">
+    <time datetime="2022-06-06T23:23:26&#43;09:00">
+      
+      Jun 6, 2022
+    </time>
+  </span>
+</span>
+
+<span class="flex align-center no-wrap">
+  <svg class="gblog-icon gblog_timer"><use xlink:href="#gblog_timer"></use></svg>
+  <span class="gblog-post__tag">1 min read</span>
+</span>
+
+
+
+
+
+
+
+
   
-    <article class="gblog-post">
-      <header class="gblog-post__header">
-        <h1 class="gblog-post__title">
-          <a href="/tags/mac/">MAC</a>
-        </h1>
-      </header>
-
-      <footer class="gblog-post__meta flex align-center">
+    
+    
+      
         <span class="flex align-center no-wrap">
+          <svg class="gblog-icon gblog_bookmark"><use xlink:href="#gblog_bookmark"></use></svg>
           
-          <svg class="gblog-icon gblog_tag"><use xlink:href="#gblog_tag"></use></svg>
-          <span class="gblog-post__tag">
-            1
-            post
-          </span>
-        </span>
+  <span class="gblog-post__tag gblog-button gblog-button--regular">
+    <a
+      class="gblog-button__link"
+      href="/tags/react/"
+      title="All posts tagged with 'react'"
+    >
+      react
+    </a>
+  </span>
 
-        <span class="flex align-center no-wrap">
-          <svg class="gblog-icon gblog_star"><use xlink:href="#gblog_star"></use></svg>
-          <span>
-            
-            
-              <a href="/posts/20220605/">Nature RemoをMacから操作</a>
-            
-            <i>by</i>
-            
-            
-          </span>
         </span>
-      </footer>
-    </article>
+      
+    
+    
   
-    <article class="gblog-post">
-      <header class="gblog-post__header">
-        <h1 class="gblog-post__title">
-          <a href="/tags/microservices/">Microservices</a>
-        </h1>
-      </header>
 
-      <footer class="gblog-post__meta flex align-center">
-        <span class="flex align-center no-wrap">
-          
-          <svg class="gblog-icon gblog_tag"><use xlink:href="#gblog_tag"></use></svg>
-          <span class="gblog-post__tag">
-            1
-            post
-          </span>
-        </span>
 
-        <span class="flex align-center no-wrap">
-          <svg class="gblog-icon gblog_star"><use xlink:href="#gblog_star"></use></svg>
-          <span>
-            
-            
-              <a href="/posts/20220608/">マイクロサービスと既存テスト</a>
-            
-            <i>by</i>
-            
-            
-          </span>
-        </span>
-      </footer>
-    </article>
-  
-    <article class="gblog-post">
-      <header class="gblog-post__header">
-        <h1 class="gblog-post__title">
-          <a href="/tags/next.js/">Next.Js</a>
-        </h1>
-      </header>
 
-      <footer class="gblog-post__meta flex align-center">
-        <span class="flex align-center no-wrap">
-          
-          <svg class="gblog-icon gblog_tag"><use xlink:href="#gblog_tag"></use></svg>
-          <span class="gblog-post__tag">
-            3
-            posts
-          </span>
-        </span>
 
-        <span class="flex align-center no-wrap">
-          <svg class="gblog-icon gblog_star"><use xlink:href="#gblog_star"></use></svg>
-          <span>
-            
-            
-              <a href="/posts/20220610/">Next.js チュートリアル</a>
-            
-            <i>by</i>
-            
-            
-          </span>
-        </span>
-      </footer>
-    </article>
-  
-    <article class="gblog-post">
-      <header class="gblog-post__header">
-        <h1 class="gblog-post__title">
-          <a href="/tags/react/">React</a>
-        </h1>
-      </header>
 
-      <footer class="gblog-post__meta flex align-center">
-        <span class="flex align-center no-wrap">
-          
-          <svg class="gblog-icon gblog_tag"><use xlink:href="#gblog_tag"></use></svg>
-          <span class="gblog-post__tag">
-            2
-            posts
-          </span>
-        </span>
 
-        <span class="flex align-center no-wrap">
-          <svg class="gblog-icon gblog_star"><use xlink:href="#gblog_star"></use></svg>
-          <span>
-            
-            
-              <a href="/posts/20220606/">Reactの状態管理調査</a>
-            
-            <i>by</i>
-            
-            
-          </span>
-        </span>
-      </footer>
-    </article>
-  
-    <article class="gblog-post">
-      <header class="gblog-post__header">
-        <h1 class="gblog-post__title">
-          <a href="/tags/software-testing/">Software Testing</a>
-        </h1>
-      </header>
-
-      <footer class="gblog-post__meta flex align-center">
-        <span class="flex align-center no-wrap">
-          
-          <svg class="gblog-icon gblog_tag"><use xlink:href="#gblog_tag"></use></svg>
-          <span class="gblog-post__tag">
-            1
-            post
-          </span>
-        </span>
-
-        <span class="flex align-center no-wrap">
-          <svg class="gblog-icon gblog_star"><use xlink:href="#gblog_star"></use></svg>
-          <span>
-            
-            
-              <a href="/posts/20220608/">マイクロサービスと既存テスト</a>
-            
-            <i>by</i>
-            
-            
-          </span>
-        </span>
-      </footer>
-    </article>
-  
-    <article class="gblog-post">
-      <header class="gblog-post__header">
-        <h1 class="gblog-post__title">
-          <a href="/tags/web-design/">Web Design</a>
-        </h1>
-      </header>
-
-      <footer class="gblog-post__meta flex align-center">
-        <span class="flex align-center no-wrap">
-          
-          <svg class="gblog-icon gblog_tag"><use xlink:href="#gblog_tag"></use></svg>
-          <span class="gblog-post__tag">
-            1
-            post
-          </span>
-        </span>
-
-        <span class="flex align-center no-wrap">
-          <svg class="gblog-icon gblog_star"><use xlink:href="#gblog_star"></use></svg>
-          <span>
-            
-            
-              <a href="/posts/20220604/">緑内障 &amp; デザインの基礎の基礎の勉強</a>
-            
-            <i>by</i>
-            
-            
-          </span>
-        </span>
+        </div>
       </footer>
     </article>
   

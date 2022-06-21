@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://gohugo.io/" version="0.100.1">Hugo</generator>
+    <title>Architecture on 七転び八起き</title>
+            <link href="https://kensei18.github.io/tags/architecture/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://kensei18.github.io/tags/architecture/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+    <updated>2022-06-21T23:29:54+09:00</updated>
+    <id>https://kensei18.github.io/tags/architecture/</id>
+        <entry>
+            <title>Next.jsのチュートリアル終わった / Monorepo</title>
+            <link href="https://kensei18.github.io/posts/20220615/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://kensei18.github.io/posts/20220615/</id>
+            <published>2022-06-15T22:42:41+09:00</published>
+            <updated>2022-06-15T22:42:41+09:00</updated>
+            <content type="html">
+                &lt;p&gt;Next.jsのチュートリアルを一通りやってみた。そのページの表示に必要なファイルだけを分割して取得したり、ビルド時に一回取得しておけば良いデータを使ったPre-renderingなど、React単体では確かに難しいような機能を簡単に使えるのは良いな、と思う反面、業務用アプリケーションのように一画面での操作が多岐にわたるようなアプリの場合は、結局クライアント側で複雑な動作を制御する必要があるのは間違いないので、そのような機能をNext.jsで作り上げるにはどうしたら良いのか、そしてそのような実装では切っても切り離せないステート管理はどうするのか、というところまではチュートリアルでは学ぶことができなかったので、その辺りをもう少し勉強していかないといけないな、と感じている。Railsでキャリアを始めた人間からすると、もちろん思想の違いはかなり大きいとしても、フルスタックフレームワークという点で、Next.jsもここに全てを詰め込みすぎると負債爆発するイメージがあるので、クライアント側でのアプリケーションの描写、という点のためだけに利用して、ビジネスロジック・データアクセス等は別のサービスに置くことは絶対だな、という確認はできた。&lt;/p&gt;
+&lt;p&gt;で、&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://engineering.mercari.com/blog/entry/20210817-8f561697cc/&#34;
+  
+&gt;メルカリShopsのブログ&lt;/a&gt;を読んで以来、それらのサービスはMonorepoで管理したい、という割と強い思いがある。リポジトリ分けると、どこで何をどのように管理しているか、というのが本当にわからなくなる。「人数が増えてきたら、リポジトリ同じだと面倒になる」という話も聞いたことがあるものの、それはリポジトリのルール・ソース分割・CI/CD管理が杜撰なだけで、それらを明確にしておけばメリットの方が大きいような気がする。ちょっと調べてみたら&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://youtu.be/W71BTkUbdqE&#34;
+  
+&gt;Googleも基本はmonorepo&lt;/a&gt;のよう。メルカリShopsに関しても&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://zenn.dev/cacbahbj/articles/6f4a337e2070ed&#34;
+  
+&gt;動画&lt;/a&gt;があった。かなり勉強になりそうだし、両方とも週末にでも観たい。&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://github.com/babel/babel/blob/main/doc/design/monorepo.md&#34;
+  
+&gt;babelのデザイン資料&lt;/a&gt;も読みたい。&lt;/p&gt;
+
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/next.js" term="next.js" label="next.js" /> 
+                                <category scheme="https://kensei18.github.io/tags/cicd" term="cicd" label="cicd" /> 
+                                <category scheme="https://kensei18.github.io/tags/architecture" term="architecture" label="architecture" />
+        </entry>
+</feed>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://gohugo.io/" version="0.100.1">Hugo</generator>
+    <title>React on 七転び八起き</title>
+            <link href="https://kensei18.github.io/tags/react/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://kensei18.github.io/tags/react/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+    <updated>2022-06-21T23:29:54+09:00</updated>
+    <id>https://kensei18.github.io/tags/react/</id>
+        <entry>
+            <title>Reactの周辺</title>
+            <link href="https://kensei18.github.io/posts/20220621/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://kensei18.github.io/posts/20220621/</id>
+            <published>2022-06-21T23:11:28+09:00</published>
+            <updated>2022-06-21T23:11:28+09:00</updated>
+            <content type="html">
+                &lt;p&gt;VueのアプリをNext.jsに置き換えようとしているけど、Vueと比較するとReact/Next.js関連のドキュメントはかなり簡単に見つかる。Firebase Authを導入するのとかも、Vueだと普通にFirebase SDKのドキュメントを読んで自分なりに組み込んだような記憶があるけど、Next.jsに関してはNext.jsの公式ドキュメントにFirebase Auth導入に関するリンクが載っていて、さらにそこに飛んだら普通に&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://github.com/gladly-team/next-firebase-auth&#34;
+  
+&gt;next-firebase-auth&lt;/a&gt;というライブラリが用意されていた。Vueのエコシステムはめちゃ好きだったけど、直接関連がないライブラリでも、Reactに導入するための丁寧なドキュメントが用意されていることが多いような気がしていて、「あー、これはVueは勝てんわ」ってなってる。&lt;/p&gt;
+
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/react" term="react" label="react" /> 
+                                <category scheme="https://kensei18.github.io/tags/next.js" term="next.js" label="next.js" />
+        </entry>
+        <entry>
+            <title>Reactの状態管理調査</title>
+            <link href="https://kensei18.github.io/posts/20220606/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://kensei18.github.io/posts/20220606/</id>
+            <published>2022-06-06T23:23:26+09:00</published>
+            <updated>2022-06-06T23:23:26+09:00</updated>
+            <content type="html">
+                &lt;p&gt;Reactはほとんど触らず、Vue.jsしか開発したことがなかったけど、React/Next.jsで開発する必要が出てきそうなので調査。とりあえずReactの状態管理の手法を知りたかったところ、&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://blog.uhy.ooo/entry/2021-07-24/react-state-management/?utm_source=pocket_mylist&#34;
+  
+&gt;こちらの記事&lt;/a&gt;を見つけたので読んでみた。&lt;/p&gt;
+&lt;p&gt;VuexはReduxのVue.js版かと思っていたが、もしかしたらちょっと違う？Reduxは分割ができない、的なことが書いてあるけど、これは文字通りファイルが分割できないのか、さまざまなステートが一つのインスタンスに内包されているという意味か、よくわからなかった。とはいえ、Vuexもpiniaも実際のところどうやって状態管理しているのかよくわかっていないので、あまり気にする意味がなさそう。少なくとも、2022年6月現在ではRecoilが比較的新しい状態管理ライブラリとして人気がありそうということがわかった。今後ドキュメントをよく読む必要がありそう。&lt;/p&gt;
+
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/react" term="react" label="react" />
+        </entry>
+</feed>

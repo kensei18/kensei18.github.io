@@ -4,8 +4,25 @@
     <title>七転び八起き</title>
             <link href="https://kensei18.github.io/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://kensei18.github.io/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
-    <updated>2022-06-15T23:11:23+09:00</updated>
+    <updated>2022-06-21T23:29:54+09:00</updated>
     <id>https://kensei18.github.io/</id>
+        <entry>
+            <title>Reactの周辺</title>
+            <link href="https://kensei18.github.io/posts/20220621/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://kensei18.github.io/posts/20220621/</id>
+            <published>2022-06-21T23:11:28+09:00</published>
+            <updated>2022-06-21T23:11:28+09:00</updated>
+            <content type="html">
+                &lt;p&gt;VueのアプリをNext.jsに置き換えようとしているけど、Vueと比較するとReact/Next.js関連のドキュメントはかなり簡単に見つかる。Firebase Authを導入するのとかも、Vueだと普通にFirebase SDKのドキュメントを読んで自分なりに組み込んだような記憶があるけど、Next.jsに関してはNext.jsの公式ドキュメントにFirebase Auth導入に関するリンクが載っていて、さらにそこに飛んだら普通に&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;https://github.com/gladly-team/next-firebase-auth&#34;
+  
+&gt;next-firebase-auth&lt;/a&gt;というライブラリが用意されていた。Vueのエコシステムはめちゃ好きだったけど、直接関連がないライブラリでも、Reactに導入するための丁寧なドキュメントが用意されていることが多いような気がしていて、「あー、これはVueは勝てんわ」ってなってる。&lt;/p&gt;
+
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/react" term="react" label="react" /> 
+                                <category scheme="https://kensei18.github.io/tags/next.js" term="next.js" label="next.js" />
+        </entry>
         <entry>
             <title>Next.jsのチュートリアル終わった / Monorepo</title>
             <link href="https://kensei18.github.io/posts/20220615/" rel="alternate" type="text/html"  hreflang="en" />
@@ -32,7 +49,10 @@
   
 &gt;babelのデザイン資料&lt;/a&gt;も読みたい。&lt;/p&gt;
 
-            </content>  
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/next.js" term="next.js" label="next.js" /> 
+                                <category scheme="https://kensei18.github.io/tags/cicd" term="cicd" label="cicd" /> 
+                                <category scheme="https://kensei18.github.io/tags/architecture" term="architecture" label="architecture" />
         </entry>
         <entry>
             <title>Next.js チュートリアル</title>
@@ -53,7 +73,8 @@
 &gt;Showcase&lt;/a&gt;を見ると、めちゃくちゃ有名なアプリケーションがひたすら紹介されていて、Vue.js界隈ではなかなか見ることができなかった景色でテンションが上がる。&lt;/p&gt;
 &lt;p&gt;ほぼ間違いなく使うことになると思うけど、もう少し勉強と検討が必要そう。&lt;/p&gt;
 
-            </content>  
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/next.js" term="next.js" label="next.js" />
         </entry>
         <entry>
             <title>マイクロサービスと既存テスト</title>
@@ -65,7 +86,9 @@
                 &lt;p&gt;モノリスの既存機能をマイクロサービス化するにあたって、既存テストの一部のデータ取得をモックしたりしてる。Ruby on RailsのようなMVCがガッチリ絡み合っているようなフレームワークだと、確かにサービスが大きくなってきたときにその密結合が悪影響を及ぼすけど、E2Eテストはかなりやりやすかったんだなと感じている。&lt;/p&gt;
 &lt;p&gt;マイクロサービスじゃなくても、フロントエンドとバックエンドが明確に分けられているような最近のアーキテクチャでは、E2Eテストをどう考えるのが正解なんだろう？個別にインテグレーションテストするのはもちろんだが、それで十分なんだろうか？意外と調べても簡単には出てこない（特に日本語だと）ので、そのうち時間をとって海外のブログとか漁ってみたい。&lt;/p&gt;
 
-            </content>  
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/microservices" term="microservices" label="microservices" /> 
+                                <category scheme="https://kensei18.github.io/tags/software-testing" term="software-testing" label="software testing" />
         </entry>
         <entry>
             <title>Reactの状態管理調査</title>
@@ -81,7 +104,8 @@
 &gt;こちらの記事&lt;/a&gt;を見つけたので読んでみた。&lt;/p&gt;
 &lt;p&gt;VuexはReduxのVue.js版かと思っていたが、もしかしたらちょっと違う？Reduxは分割ができない、的なことが書いてあるけど、これは文字通りファイルが分割できないのか、さまざまなステートが一つのインスタンスに内包されているという意味か、よくわからなかった。とはいえ、Vuexもpiniaも実際のところどうやって状態管理しているのかよくわかっていないので、あまり気にする意味がなさそう。少なくとも、2022年6月現在ではRecoilが比較的新しい状態管理ライブラリとして人気がありそうということがわかった。今後ドキュメントをよく読む必要がありそう。&lt;/p&gt;
 
-            </content>  
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/react" term="react" label="react" />
         </entry>
         <entry>
             <title>Nature RemoをMacから操作</title>
@@ -101,7 +125,8 @@
 &gt;こちらのブログ&lt;/a&gt;を見つけたので、そのまま試してみた。めちゃ便利。Automatorもスクリプトエディタも使ったことなかったけど、shell script書くだけで簡単に自動化できるし、今後有効活用していきたさある。&lt;/p&gt;
 &lt;p&gt;今日はようやく会社の定款とかを読んだ。これ全部1人でやるのはとてもじゃないけど無理やな。&lt;/p&gt;
 
-            </content>  
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/mac" term="mac" label="mac" />
         </entry>
         <entry>
             <title>緑内障 &amp; デザインの基礎の基礎の勉強</title>
@@ -117,7 +142,8 @@
   
 &gt;エンジニアのための理論でわかるデザイン入門&lt;/a&gt;』の色のところまで読み終わった。作っているアプリのメインのカラーを何にしようか明確な方針が無かったけど、なんとなく「クールだけどライト」みたいなコンセプトで考えるのが良さそうだし、医療系のサイトは割と寒色のものが多いから、それに倣うのが良さそう。Figmaの使い方を勉強し始めないと。&lt;/p&gt;
 
-            </content>  
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/web-design" term="web-design" label="web design" />
         </entry>
         <entry>
             <title>ブログ開設した</title>

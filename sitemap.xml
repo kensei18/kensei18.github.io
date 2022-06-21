@@ -2,17 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kensei18.github.io/posts/20220615/</loc>
-    <lastmod>2022-06-15T22:42:41+09:00</lastmod>
+    <loc>https://kensei18.github.io/tags/next.js/</loc>
+    <lastmod>2022-06-21T23:11:28+09:00</lastmod>
   </url><url>
     <loc>https://kensei18.github.io/posts/</loc>
-    <lastmod>2022-06-15T22:42:41+09:00</lastmod>
+    <lastmod>2022-06-21T23:11:28+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/tags/react/</loc>
+    <lastmod>2022-06-21T23:11:28+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/posts/20220621/</loc>
+    <lastmod>2022-06-21T23:11:28+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/tags/</loc>
+    <lastmod>2022-06-21T23:11:28+09:00</lastmod>
   </url><url>
     <loc>https://kensei18.github.io/</loc>
+    <lastmod>2022-06-21T23:11:28+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/tags/architecture/</loc>
+    <lastmod>2022-06-15T22:42:41+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/tags/cicd/</loc>
+    <lastmod>2022-06-15T22:42:41+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/posts/20220615/</loc>
     <lastmod>2022-06-15T22:42:41+09:00</lastmod>
   </url><url>
     <loc>https://kensei18.github.io/posts/20220610/</loc>
     <lastmod>2022-06-10T23:44:11+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/tags/microservices/</loc>
+    <lastmod>2022-06-08T22:50:29+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/tags/software-testing/</loc>
+    <lastmod>2022-06-08T22:50:29+09:00</lastmod>
   </url><url>
     <loc>https://kensei18.github.io/posts/20220608/</loc>
     <lastmod>2022-06-08T22:50:29+09:00</lastmod>
@@ -20,8 +44,14 @@
     <loc>https://kensei18.github.io/posts/20220606/</loc>
     <lastmod>2022-06-06T23:23:26+09:00</lastmod>
   </url><url>
+    <loc>https://kensei18.github.io/tags/mac/</loc>
+    <lastmod>2022-06-05T22:49:51+09:00</lastmod>
+  </url><url>
     <loc>https://kensei18.github.io/posts/20220605/</loc>
     <lastmod>2022-06-05T22:49:51+09:00</lastmod>
+  </url><url>
+    <loc>https://kensei18.github.io/tags/web-design/</loc>
+    <lastmod>2022-06-04T21:26:55+09:00</lastmod>
   </url><url>
     <loc>https://kensei18.github.io/posts/20220604/</loc>
     <lastmod>2022-06-04T21:26:55+09:00</lastmod>
@@ -30,7 +60,5 @@
     <lastmod>2022-06-04T00:59:05+09:00</lastmod>
   </url><url>
     <loc>https://kensei18.github.io/authors/</loc>
-  </url><url>
-    <loc>https://kensei18.github.io/tags/</loc>
   </url>
 </urlset>

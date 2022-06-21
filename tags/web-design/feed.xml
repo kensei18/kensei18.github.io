@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <generator uri="https://gohugo.io/" version="0.100.1">Hugo</generator>
+    <title>Web Design on 七転び八起き</title>
+            <link href="https://kensei18.github.io/tags/web-design/" rel="alternate" type="text/html" title="HTML" />
+            <link href="https://kensei18.github.io/tags/web-design/feed.xml" rel="self" type="application/atom+xml" title="Atom" />
+    <updated>2022-06-21T23:29:54+09:00</updated>
+    <id>https://kensei18.github.io/tags/web-design/</id>
+        <entry>
+            <title>緑内障 &amp; デザインの基礎の基礎の勉強</title>
+            <link href="https://kensei18.github.io/posts/20220604/" rel="alternate" type="text/html"  hreflang="en" />
+            <id>https://kensei18.github.io/posts/20220604/</id>
+            <published>2022-06-04T21:26:55+09:00</published>
+            <updated>2022-06-04T21:26:55+09:00</updated>
+            <content type="html">
+                &lt;p&gt;今のメガネが傷だらけだったので、いい加減新調しないとと思い、眼科に行ってメガネの処方箋を作るための検査をしたところ、緑内障の疑いがあることが判明し、そのまま力内容の検査も併せて行った。結論としては、今は問題ないものの、特に右目の視神経が弱いようで、将来的に緑内障になる可能性があるとのこと。ただし、早期発見できれば進行を遅らせるような治療もできるので、今気が付いて良かったらしい。今後は年に一回くらいの頻度で検査を行う方が良いと助言をいただいた。たまたまだけど、気がつけて本当によかった。&lt;/p&gt;
+&lt;p&gt;今日は『&lt;a
+  class=&#34;gblog-markdown__link&#34;
+  href=&#34;www.amazon.co.jp/dp/429500233X&#34;
+  
+&gt;エンジニアのための理論でわかるデザイン入門&lt;/a&gt;』の色のところまで読み終わった。作っているアプリのメインのカラーを何にしようか明確な方針が無かったけど、なんとなく「クールだけどライト」みたいなコンセプトで考えるのが良さそうだし、医療系のサイトは割と寒色のものが多いから、それに倣うのが良さそう。Figmaの使い方を勉強し始めないと。&lt;/p&gt;
+
+            </content>   
+                                <category scheme="https://kensei18.github.io/tags/web-design" term="web-design" label="web design" />
+        </entry>
+</feed>
